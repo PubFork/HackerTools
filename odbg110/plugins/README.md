@@ -20,6 +20,7 @@ OllyDbg1.10最多支持32个插件,如果多于32个插件,将会闪退.
 	一个强大的插件,比如针对入口点为0的可执行程序,StrongOD将会在程序载入OD时,
 	自动断在可执行程序的模块开始处,然后可以自行寻找EOP进行调试,
 	StrongOD也可以隐藏OD,使钩取OllyDbg的反调试机制失效.
+
 * **IDFicator:idaficator.dll+bytes.oep+IDAfictrotools**
 	下载地址：https://tuts4you.com/download.php?view.2058，解压密码:tuts4you
 	安装方法：
@@ -30,6 +31,12 @@ OllyDbg1.10最多支持32个插件,如果多于32个插件,将会闪退.
 	然后配置RADASM的相对路径：.\plugins\idaficator-tools，HELP的路径可以设置为：.\help\win32.hlp
 	它会在OD的界面上生成几个图标，最右侧的是1，2，3，4，5.打开OD后就会看到了。
 	它也会生成一个Breakpoint菜单项，里面包含了常见的断点。
+
+* **StollyStruct.dll:StollyStruct.dll+StollyStructs.doc+StollyStructs.ini**
+    在DUMP窗口中可以在某一起始地址指定结构体名称,然后会自动显示各个参数的名称.
+    StollyStruct.dll 放在 plugins 目录下,StollyStructs.doc我放在了 plugins/DOCS 目录
+    下面.StollyStructs.ini需要放置在OD根目录下面.
+
 # 其他
 * **DOCS**
     本目录存放一些附加的文档说明

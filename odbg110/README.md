@@ -53,3 +53,5 @@
 	加载完DLL后，将会停止在DLL的入口处，此时F7或者F8就可以进入DllMain函数里面了。
 	或者你也可以F9直接运行，OD会再次停下来。然后你可以依次[Debug/Call DLL export]
 	来打开一个界面，在这个新界面中选择要执行的函数。
+* StollyStructs.ini:
+  StollyStructs插件的数据库文件,必须放置在OD根目录.
