@@ -1,3 +1,6 @@
+# 下载
+<pre> svn export https://github.com/ikey4u/BlogShares/trunk/odbg110 </pre>
+
 # 基本初始化配置
 你可以双击fixpath.bat进行OD以及插件的相关路径配置，
 如果你希望使用tools下面的工具并将其添加到[发送到]鼠标右键，
